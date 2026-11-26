@@ -1,1 +1,1 @@
-https://imbada.github.io/VJDeck-site/
+https://vjdeck.github.io/site/
