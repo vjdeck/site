@@ -52,8 +52,17 @@
     <h1>Changelog</h1>
     <p data-i18n="cl_sub"></p>
     <div class="page-download">
-      <a href="https://github.com/vjdeck/site/releases/latest/download/VJDeck.dmg" class="dl-btn" id="download" data-i18n="download_latest">최신 버전 다운로드</a>
+      <a href="https://github.com/vjdeck/app/releases/latest/download/VJDeck.dmg" class="dl-btn" id="download" data-i18n="download_latest">최신 버전 다운로드</a>
     </div>
+  </div>
+
+  <div class="version">
+    <h2>1.8.1</h2>
+    <div class="date">2026-11-26</div>
+    <h3 data-i18n="h_improve" style="font-size:13px;font-weight:600;color:var(--text);margin-bottom:8px;"></h3>
+    <ul>
+      <li data-i18n="v181_i1"></li>
+    </ul>
   </div>
 
   <div class="version">
@@ -583,6 +592,7 @@
 <script>
 const T = {
   ko: {
+    v181_i1: "앱 저장소를 vjdeck/app으로 옮기고, 자동 업데이트와 Bug Report 메뉴가 새 저장소를 사용하도록 변경했습니다.",
     v180_i1: "플레이리스트 UI를 최적화했습니다.",
     v170_a1: "<strong>OSC 매핑</strong>: TouchOSC 같은 OSC 컨트롤러로 덱·플레이리스트·Master Output의 버튼과 페이더를 MIDI와 같은 방식으로 매핑합니다. Settings → Mapping → OSC Input에서 Receive OSC를 켜면 UDP 포트 8000(변경 가능)으로 메시지를 받습니다.",
     v160_a1: "<strong>자동 업데이트</strong>: 앱 실행 시 새 버전을 확인하고 다운로드한 뒤 종료할 때 설치합니다. Settings → General → Restart to Update로 바로 설치할 수도 있습니다.",
@@ -717,6 +727,7 @@ const T = {
     c9: '플레이리스트, M3U 가져오기/내보내기',
   },
   ja: {
+    v181_i1: "アプリのリポジトリをvjdeck/appに移行し、自動アップデートとBug Reportメニューが新しいリポジトリを使うように変更しました。",
     v180_i1: "プレイリストUIを最適化しました。",
     v170_a1: "<strong>OSCマッピング</strong>：TouchOSCなどのOSCコントローラーで、デッキ・プレイリスト・Master Outputのボタンとフェーダーを、MIDIと同じ方法でマッピングできます。Settings → Mapping → OSC InputでReceive OSCをオンにすると、UDPポート8000（変更可能）でメッセージを受信します。",
     v160_a1: "<strong>自動アップデート</strong>：起動時に新しいバージョンを確認・ダウンロードし、終了時にインストールします。Settings → General → Restart to Updateからすぐにインストールすることもできます。",
@@ -851,6 +862,7 @@ const T = {
     c9: 'プレイリスト、M3Uインポート/エクスポート',
   },
   en: {
+    v181_i1: "Moved the app repository to vjdeck/app; automatic updates and the Bug Report menu now use it.",
     v180_i1: "Optimized the playlist UI.",
     v170_a1: "<strong>OSC mapping</strong>: Map deck, playlist, and Master Output buttons and faders from OSC controllers such as TouchOSC, the same way as MIDI. Turn on Receive OSC in Settings → Mapping → OSC Input to receive messages on UDP port 8000 (configurable).",
     v160_a1: "<strong>Automatic updates</strong>: Checks for new versions on launch, downloads them, and installs them when you quit. You can also install immediately from Settings → General → Restart to Update.",
